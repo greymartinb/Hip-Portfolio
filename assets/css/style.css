@@ -1,0 +1,315 @@
+/*borders */
+.background{
+  background-image: url("../images/fishes.jpg");
+  background-repeat: repeat;
+  height: 1000px;
+}
+/*cover lettering */
+.title{
+  position: relative;
+  top: 50px;
+  left: -110px;
+  font-family: "Roboto", serif;
+  text-align: center;
+  font-size: 62px;
+     text-shadow: -1px 1px black, 
+                -2px 2px black, 
+                -3px 3px black,
+                -4px 4px black,
+                -5px 5px black,
+                -6px 6px black;
+} 
+    /*title colors*/
+    .one{
+      color:rgba(207, 103, 34, 1);
+    }
+
+    .two{
+      color:rgba(171, 53, 77, 1);
+    }
+
+    .three{
+      color:rgba(100, 103, 83, 1);
+    }
+
+    .four{
+      color:rgba(232, 109, 125, 1);
+    }
+
+    .five{
+      color:rgba(85, 59, 41, 1);
+    }
+
+/*    cover background image*/
+#flipbook .cover{
+  height: 100%
+  width:100%;
+  background-image:url("../images/hipcover.jpg") !important;
+}
+/*    subtitle setup */
+ .subtitle{
+    position: relative;
+    top: 50px;
+    left: 40px;
+    font-family: 'Khula', sans-serif;
+    font-weight: 800;
+    color: black;
+    font-size: 25px;
+ }
+  .subsubtitle{
+    position: relative;
+    top: 50px;
+    left: 40px;
+    font-family: 'Khula', sans-serif;
+    font-weight: 800;
+    color: black;
+    font-size: 20px;
+ }
+.pageNumber{
+    position: relative;
+    top: 35px;
+    left: 40px;
+    font-family: 'Khula', sans-serif;
+    font-weight: 800;
+    color: black;
+    font-size: 18px;
+
+}
+.columns{   
+ -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+        -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+    -moz-column-rule-style: solid; /* Firefox */
+    column-rule-style: solid;
+        -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 20px; /* Firefox */
+    column-gap: 40px;
+    padding-bottom: 20px;
+
+}
+.Roboto{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: -10px;
+    left: 40px;
+    color: white
+}
+.left{
+     left: 100px;
+    text-align: center;
+}
+h3{
+font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: -50px;
+    left: 110px;
+    color: white;
+}
+/*breaking annoying bootstrap padding */
+.no-padding{
+  padding: 0px;
+}
+.images{
+    float: right;
+    height: 320px;
+    /* width: 320px; */
+    margin: -136px 36px 11px 20px;
+}
+/*standard page layout*/
+
+.titleWrap{
+
+}
+.pageWrapper{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+.pageWrapperOne{
+  padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+#pageOne{
+
+/*    background-size: 540px 750px !important;
+    background-repeat: no-repeat !important;*/
+}
+
+.pageOneTitle{
+   position: relative;
+  top: 50px;
+  left: 0px;
+  font-family: "Roboto", serif;
+  text-align: center;
+/*         -webkit-filter: grayscale(1);
+  filter: grayscale(1);*/
+       -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+     background-image:     linear-gradient(
+      rgba(232, 109, 125, 0.55), 
+      rgba(232, 109, 125, 0.55)
+    ), url("../images/hipworkshop.jpg") !important;
+     font-size: 436px;
+
+}
+.final{
+  padding-left: 30px;
+}
+.finalOne{
+padding-top:45px; 
+}
+
+.articleText{
+  text-indent: 10px;
+
+}
+.blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  font-style: italic;
+}
+
+.articleQuote{
+ padding-top: 244px;
+    padding-bottom: 254px;
+    margin: 1.5em 10px;
+    /* padding-right: 90px; */
+    /* padding-left: 90px; */
+    text-align: center;
+    font-size: 21px;
+}
+.interview{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 190px;
+    left: 280px;
+    color: white;
+
+}
+.sizing{
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+.sizingTwo{
+  height: 100%;
+  width: 50%;
+  float:left;
+}
+.sizingThree{
+  height: 100%;
+  width: 100%;
+}
+.imageSizing{
+  height: 100%;
+  width: 100%;
+}
+.border {
+       border-width: 15px;
+    border-color: white;
+    border-style: solid;
+}
+.imagesOne{
+  height: 25%;
+  width: 100%;
+}
+.imagesTwo{
+  height: 75%;
+  width: 100%;
+}
+.imagesThree{
+  height: 65%;
+  width: 300%;
+}
+.imagesFour{
+  height: 35%;
+  width: 300%;
+}
+.imagesFive{
+    height: 65%;
+    width: 150%;
+    position: relative;
+    left: -50%;
+}
+.imagesSix{
+  height: 35%;
+  width: 150%; 
+      position: relative;
+    left: -50%;
+}
+.word{
+  font-weight: bold;
+}
+
+
+/*flip js css */
+body{
+    overflow:hidden;
+}
+
+#flipbook{
+    width:1066px;
+    height:670px;
+}
+
+#flipbook .page{
+    width:100%;
+    height:100%;
+    background-color:white;
+}
+
+#flipbook .page-wrapper{
+    -webkit-perspective:2000px;
+    -moz-perspective:2000px;
+    -ms-perspective:2000px;
+    -o-perspective:2000px;
+    perspective:2000px;
+}
+
+#flipbook .hard{
+    background:#ccc !important;
+    color:#333;
+    -webkit-box-shadow:inset 0 0 5px #666;
+    -moz-box-shadow:inset 0 0 5px #666;
+    -o-box-shadow:inset 0 0 5px #666;
+    -ms-box-shadow:inset 0 0 5px #666;
+    box-shadow:inset 0 0 5px #666;
+    font-weight:bold;
+}
+
+#flipbook .odd{
+    background:-webkit-gradient(linear, right top, left top, color-stop(0.95, #FFF), color-stop(1, #DADADA));
+    background-image:-webkit-linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    background-image:-moz-linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    background-image:-ms-linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    background-image:-o-linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    background-image:linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    -webkit-box-shadow:inset 0 0 5px #666;
+    -moz-box-shadow:inset 0 0 5px #666;
+    -o-box-shadow:inset 0 0 5px #666;
+    -ms-box-shadow:inset 0 0 5px #666;
+    box-shadow:inset 0 0 5px #666;
+    
+}
+
+#flipbook .even{
+    background:-webkit-gradient(linear, left top, right top, color-stop(0.95, #fff), color-stop(1, #dadada));
+    background-image:-webkit-linear-gradient(left, #fff 95%, #dadada 100%);
+    background-image:-moz-linear-gradient(left, #fff 95%, #dadada 100%);
+    background-image:-ms-linear-gradient(left, #fff 95%, #dadada 100%);
+    background-image:-o-linear-gradient(left, #fff 95%, #dadada 100%);
+    background-image:linear-gradient(left, #fff 95%, #dadada 100%);
+    -webkit-box-shadow:inset 0 0 5px #666;
+    -moz-box-shadow:inset 0 0 5px #666;
+    -o-box-shadow:inset 0 0 5px #666;
+    -ms-box-shadow:inset 0 0 5px #666;
+    box-shadow:inset 0 0 5px #666;
+}
