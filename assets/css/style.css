@@ -1,4 +1,8 @@
 /*borders */
+
+body{
+  max-width: 1282px;
+}
 .background{
   background-image: url("../images/fishes.jpg");
   background-repeat: repeat;
@@ -249,14 +253,22 @@ padding-top:45px;
   font-weight: bold;
 }
 
-
+.signal{
+      position: relative;
+    top: 210px;
+    left: 400px;
+        font-family: 'Khula', sans-serif;
+    font-weight: 800;
+    color: black;
+        font-size: 26px;
+}
 /*flip js css */
 body{
     overflow:hidden;
 }
 
 #flipbook{
-    width:1066px;
+    width:1066px !important;
     height:670px;
 }
 
