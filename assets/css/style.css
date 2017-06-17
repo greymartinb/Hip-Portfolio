@@ -100,7 +100,7 @@ body{
     color: white
 }
 .left{
-     left: 100px;
+     left: 300px;
     text-align: center;
 }
 h3{
@@ -217,13 +217,33 @@ padding-top:45px;
   width: 100%;
 }
 .border {
-       border-width: 15px;
+       border-width: 3px;
     border-color: white;
     border-style: solid;
+}
+
+.border:hover{
+  font-style: italic;
+
 }
 .imagesOne{
   height: 25%;
   width: 100%;
+}
+
+.smarter{
+      font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: -50px;
+    left: 100px;
+    color: white;
+}
+.hangman{
+      font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: -50px;
+    left: 150px;
+    color: white;
 }
 .imagesTwo{
   height: 75%;
