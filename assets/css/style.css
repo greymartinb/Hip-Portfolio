@@ -121,9 +121,15 @@ font-family: 'Roboto', sans-serif;
     margin: -136px 36px 11px 20px;
 }
 /*standard page layout*/
+a{
+  color: black;
 
-.titleWrap{
+}
 
+a:hover{
+  color: black;
+  text-decoration: none;
+  font-style: italic;
 }
 .pageWrapper{
   padding-top: 20px;
